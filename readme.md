@@ -10,6 +10,27 @@
 
 -------------------------
 
+#### Usage
+    sh manage.sh CATEGORY NAME PATH
+or
+    
+    python torrent-manager CATEGORY NAME PATH
+    
+##### CATEGORY
+TV or Movie
+
+##### NAME
+The name of the movie / tv show, should be formatted in this way:
+- Movie name (year)
+- Tv show name S01E01
+- Tv show name S01
+- Tv show name S01-3
+
+##### PATH
+The folder of the content to be copied. Can be the path of a single file if that's all that's relevant.
+
+-------------------------
+
 #### Required configuration (root folder)
 
 ##### conf.ini
